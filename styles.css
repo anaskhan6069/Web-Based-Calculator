@@ -19,7 +19,7 @@
     /* margin: 50px auto 0; */
     border-radius: 10PX;    
 }
-
+    
 .calculator{
     max-width: 400px;
     background-color: #3a4452;
@@ -93,3 +93,22 @@ form .display input{
 .calculator form button:active{
     transform: translateY(4px);
 }
+
+@media (max-width: 550px){
+    .calculator form input{
+        width: 40px;
+        height: 40px;
+    }
+    .calculator form button{
+        width: 40px;
+        height: 40px;
+
+    }
+    form .display input{
+        font-size: 35px;
+    }
+    .calculator form .equal{
+        width: 98px;
+    }
+}
+
